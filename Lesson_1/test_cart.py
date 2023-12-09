@@ -26,11 +26,17 @@ def test_add_to_cart(log_in):
     shopping_cart_badge = driver.find_element(By.XPATH, '//span[@class="shopping_cart_badge"]')
     assert shopping_cart_badge.text == '1'
 
+    item_name_before_cart = driver.find_element(By.CSS_SELECTOR, "a#item_4_title_link > div.inventory_item_name").text
+
     cart_button = WebDriverWait(driver, 10).until(
         EC.element_to_be_clickable((By.XPATH, '//a[@class="shopping_cart_link"]'))
     )
     cart_button.click()
     assert driver.current_url == 'https://www.saucedemo.com/cart.html'
+
+    item_name_in_cart = driver.find_element(By.XPATH, '//div[@class="inventory_item_name"]').text
+    assert item_name_before_cart == item_name_in_cart
+
 
     product_name_in_cart = WebDriverWait(driver, 10).until(
         EC.visibility_of_element_located((By.XPATH, '//div[@class="inventory_item_name"]'))
