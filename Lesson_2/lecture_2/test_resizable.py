@@ -63,3 +63,22 @@ def test_resizable(driver):
 
     except Exception as e:
         pytest.fail(str(e))
+
+
+def test_resizable_1(driver):
+    driver.get('https://demoqa.com/resizable')
+    try:
+        resize_item = driver.find_element(By.XPATH, "//div[@id = 'resizable']")
+        initial_size = resize_item.size
+        action = ActionChains(driver)
+        action.click_and_hold(resize_item).move_by_offset(100,100).release().perform()
+        time.sleep(3)
+        new_size = resize_item.size
+        assert initial_size['width'] >= new_size['width']
+
+    except Exception:
+        pytest.fail(str(Exception))
+
+
+
+
