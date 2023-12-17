@@ -1,0 +1,11 @@
+# URLS
+
+contact_us = 'https://skai.io/contact-us/'
+pardot = 'https://kenshoo.my.salesforce.com/?ec=302&startURL=%2Fsetup%2Fsecur%2FRemoteAccessAuthorizationPage.apexp%3Fsdtd%3D1%26source%3DCAAAAYxjRzfzMDAwMDAwMDAwMDAwMDAwAAAA9g16aPJvxEmPiTv0hXmf8ViIQsgnPd0_8SAPgt0-H457PNihVftbqQWkCf_X_3-3iR1Pjqoc1hgX44pobC1psLrjhv3FqdkdOL6M8spT_zKN0KtQdo05QoVYC1LLFF-Zcc61_OEqFhy0JwZd5rDoVlPBZP0ReVovNjtUnelKpX50gFa0gkfAHJ8yZy-x5bzZG4jg1SSFAfiaWNIMxJ4ap4xjOW_PQ2g-aR1MJGCTzYYHh9MCzsRa5yzIJke8d_A7UpEuH8OwbI9ziFIo7gBmJVTQXCT_zhKfpVp-hb3TQGRY2rqogE1_I1oHK-k5kLfs5bSoV1zb5RKAAvS6ya2f_eEjzp-qOuDazNjVMQxFCaPgwbHWvPN4RuNlMyZ8NDNEbDkjhdktdR8VWEkQ-KkT-ZMZV8PlKAMgqiybgp7jsq7puv4f9uxsqPLFpB70TfBG46im3cmwOU-hVlWWTxekMfbV-Q32iZX6XeNFUVy5XktN6bUrV2vkEKgJCmG3D1Q1XJIcLTitvm53NyVeV3vT1ULuS0hgAUOlfsNVA4nmjal7JnPULWupXo1jF-uNJr4uYKRqu5rnO6b1ECDUeb3RLxWcgM8ahLE9fN4gD1K6fP2gW1GynQHbu_Xd3FB-7Ae5kSR2vMMMe2lGtwzyuh8qJWueXFZtWBedOjGlK2-OGNWH4vm9ddrcn0M9AcMNgemlXDOo7uFA5nlsan8qn1tV-QY%253D&sdtd=1'
+form_handlers ='https://pi.pardot.com/formHandler'
+
+# Pardot
+username = 'alex.molchan@dizzain.com'
+password = 'Dizzain2024)('
+verification_code = '923423'
+
