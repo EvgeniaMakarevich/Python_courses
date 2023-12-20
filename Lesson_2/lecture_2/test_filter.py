@@ -16,5 +16,3 @@ def test_filter(driver):
     expected_text = ['Two', 'Three', 'One']
     assert text == expected_text
 
-
-    time.sleep(3)
