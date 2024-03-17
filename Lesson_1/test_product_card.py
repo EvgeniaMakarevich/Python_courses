@@ -102,3 +102,4 @@ def test_product_backtoproducts(log_in):
     back_to_products_button.click()
 
     assert driver.current_url == "https://www.saucedemo.com/inventory.html"
+
